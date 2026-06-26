@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>রেডিয়ান ফিশ ওয়ার্ল্ড — কক্সবাজার</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@500;600;700;800&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ========================= NAV ========================= -->
+<nav class="nav" id="nav">
+  <div class="container">
+    <a href="#home" class="logo">
+      <svg class="mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20" r="20" fill="#15687F"/>
+        <path d="M9 20c4-6 11-9 18-7-3 3-3 8 0 11-7 2-14-1-18-4z" fill="#8FCDD9"/>
+        <path d="M27 13c3-2 5-2 5-2s-1 4-3 7l-2-5z" fill="#EE9377"/>
+        <circle cx="14" cy="18" r="1.6" fill="#0A3744"/>
+      </svg>
+      <span>রেডিয়ান ফিশ ওয়ার্ল্ড</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">আমাদের গল্প</a></li>
+      <li><a href="#attractions">আকর্ষণ</a></li>
+      <li><a href="#gallery">গ্যালারি</a></li>
+      <li><a href="#tickets">টিকিট</a></li>
+      <li><a href="#visit">যোগাযোগ</a></li>
+    </ul>
+    <div class="nav-cta"><a href="#tickets" class="btn btn-primary">টিকিট বুক করুন</a></div>
+    <button class="burger" id="burger" aria-label="মেনু"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- ========================= HERO ========================= -->
+<header class="hero" id="home">
+  <div class="hero-bg">
+    <div class="rays"></div>
+    <!-- ambient marine SVG -->
+    <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <!-- bubbles -->
+      <g fill="rgba(255,255,255,0.10)">
+        <circle class="float" cx="180" cy="240" r="7"/>
+        <circle class="float f2" cx="240" cy="420" r="4"/>
+        <circle class="float f3" cx="1320" cy="300" r="9"/>
+        <circle class="float" cx="1180" cy="500" r="5"/>
+        <circle class="float f2" cx="1010" cy="180" r="6"/>
+        <circle class="float f3" cx="640" cy="160" r="4"/>
+      </g>
+      <!-- jellyfish -->
+      <g class="float f2" transform="translate(1120,360)" opacity="0.5">
+        <path d="M0 0c0-22 18-40 40-40s40 18 40 40c0 8-3 12-6 12H6c-3 0-6-4-6-12z" fill="#8FCDD9" opacity="0.6"/>
+        <g stroke="#8FCDD9" stroke-width="2" opacity="0.5">
+          <path d="M14 14c-2 22 4 40-2 56" fill="none"/>
+          <path d="M30 14c-1 26 2 44-3 62" fill="none"/>
+          <path d="M48 14c2 22-3 42 3 58" fill="none"/>
+          <path d="M64 14c3 24-2 40 2 54" fill="none"/>
+        </g>
+      </g>
+      <!-- fish school -->
+      <g class="float f3" transform="translate(150,560)" opacity="0.45" fill="#EE9377">
+        <path d="M0 0c10-7 22-7 30 0-8 7-20 7-30 0zm32-2l8-5v14z" />
+        <path d="M70 30c8-6 18-6 25 0-7 6-17 6-25 0zm27-2l6-4v11z" opacity="0.8"/>
+        <path d="M120 -8c8-6 18-6 25 0-7 6-17 6-25 0zm27-2l6-4v11z" opacity="0.7"/>
+      </g>
+      <!-- coral / sea floor -->
+      <path d="M0 900V760c120-30 220 18 360 0s260-70 420-48 280 70 460 38 200-58 200-58V900z" fill="rgba(8,43,54,0.55)"/>
+      <path d="M0 900V820c160-26 300 22 520 6s360-44 560-22 360 30 360 30V900z" fill="rgba(8,43,54,0.8)"/>
+    </svg>
+  </div>
+  <div class="container">
+    <div class="hero-content reveal">
+      <span class="eyebrow">কক্সবাজার, বাংলাদেশ</span>
+      <h1>সমুদ্রের গভীরে <span class="hl">এক জীবন্ত</span> জগতে স্বাগতম</h1>
+      <p class="lead">বিশাল অ্যাকুরিয়াম, সামুদ্রিক জাদুঘর, টাটকা সি-ফুড রেস্টুরেন্ট আর শিশুদের খেলার জগৎ — সমুদ্রের পাশে একটি দিন কাটানোর সম্পূর্ণ ঠিকানা রেডিয়ান ফিশ ওয়ার্ল্ড।</p>
+      <div class="hero-actions">
+        <a href="#tickets" class="btn btn-primary">টিকিট বুক করুন
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="#attractions" class="btn btn-light">আকর্ষণগুলো দেখুন</a>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-hint"><div class="dot"></div><span>স্ক্রল করুন</span></div>
+</header>
+
+<!-- ========================= STATS ========================= -->
+<section class="stats">
+  <div class="container">
+    <div class="stat reveal"><div class="num">৫০০+</div><div class="lbl">সামুদ্রিক প্রজাতি</div></div>
+    <div class="stat reveal"><div class="num">৫টি</div><div class="lbl">আকর্ষণ এক ছাদের নিচে</div></div>
+    <div class="stat reveal"><div class="num">১০+</div><div class="lbl">একর জুড়ে বিস্তৃত</div></div>
+    <div class="stat reveal"><div class="num">২ লক্ষ+</div><div class="lbl">সন্তুষ্ট দর্শনার্থী</div></div>
+  </div>
+</section>
+
+<!-- ========================= ABOUT ========================= -->
+<section class="section about" id="about">
+  <div class="container">
+    <div class="grid">
+      <div class="about-text reveal">
+        <span class="eyebrow">আমাদের গল্প</span>
+        <h2>কক্সবাজারের বুকে সমুদ্রের পুরো জগৎ</h2>
+        <p>রেডিয়ান ফিশ ওয়ার্ল্ড বাংলাদেশের সবচেয়ে বড় অ্যাকুরিয়াম কমপ্লেক্স। এখানে আপনি কেবল মাছ দেখবেন না — সমুদ্রের জীবনকে অনুভব করবেন। স্বচ্ছ কাচের টানেলের ভেতর দিয়ে হাঁটার সময় মনে হবে আপনি নিজেই সমুদ্রের গভীরে নেমে গেছেন।</p>
+        <p>পরিবার, বন্ধু কিংবা শিশুদের নিয়ে একটি পুরো দিন কাটানোর মতো সব আয়োজন এক জায়গায় — শেখা, খাওয়া, খেলা আর বিস্ময়।</p>
+        <div class="about-points">
+          <div class="about-point">
+            <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7z"/><circle cx="12" cy="12" r="3"/></svg></div>
+            <div><h4>জীবন্ত প্রদর্শনী</h4><p>প্রতিটি ট্যাংক যত্ন করে সাজানো প্রাকৃতিক আবহে</p></div>
+          </div>
+          <div class="about-point">
+            <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <div><h4>নিরাপদ ও পরিবারবান্ধব</h4><p>শিশু থেকে বয়স্ক — সবার জন্য স্বচ্ছন্দ পরিবেশ</p></div>
+          </div>
+          <div class="about-point">
+            <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg></div>
+            <div><h4>এক ছাদের নিচে সব</h4><p>অ্যাকুরিয়াম, জাদুঘর, রেস্টুরেন্ট, কিডস জোন</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="about-visual reveal">
+        <span class="ph-note">ছবি: কাচের টানেল অ্যাকুরিয়াম · 720×900px</span>
+        <div class="badge"><div class="n">২০১২</div><div class="t">থেকে সমুদ্রের গল্প বলছি</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= ATTRACTIONS ========================= -->
+<section class="section attractions" id="attractions">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">যা যা আছে</span>
+      <h2>এক টিকিটে পাঁচটি অভিজ্ঞতা</h2>
+      <p>সমুদ্রের রহস্য থেকে শুরু করে পরিবারের আনন্দ — প্রতিটি কোণে নতুন কিছু অপেক্ষা করছে আপনার জন্য।</p>
+    </div>
+    <div class="attr-grid">
+      <!-- 1 -->
+      <article class="attr-card reveal">
+        <div class="media"><div class="g" style="background:linear-gradient(160deg,#0E4B5E,#15687F)"></div>
+          <span class="ph-note">ছবি: টানেল অ্যাকুরিয়াম · 380×210px</span>
+          <div class="icon-chip"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16.5 9.5C18 8 21 8 21 8s-1 4-3 6c1 2 1 4 1 4s-3-1-5-2c-2 1-5 1-7-1s-2-5-1-7 4-2 6-1c1-1 4-3 4-3s0 3-1 4.5z"/><circle cx="9" cy="11" r=".8" fill="currentColor"/></svg></div>
+        </div>
+        <div class="body">
+          <h3>অ্যাকুরিয়াম ট্যুর</h3>
+          <p>স্বচ্ছ কাচের টানেলের ভেতর দিয়ে হাঁটুন আর দেখুন হাঙর, রে-ফিশ আর রঙিন প্রবালের জীবন্ত জগৎ।</p>
+          <a href="#tickets" class="more">বিস্তারিত <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+      <!-- 2 -->
+      <article class="attr-card reveal">
+        <div class="media"><div class="g" style="background:linear-gradient(160deg,#15687F,#3F9BB2)"></div>
+          <span class="ph-note">ছবি: মিউজিয়াম গ্যালারি · 380×210px</span>
+          <div class="icon-chip"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 9l9-6 9 6M5 9v10h14V9M9 19v-6h6v6"/></svg></div>
+        </div>
+        <div class="body">
+          <h3>ফিশ মিউজিয়াম</h3>
+          <p>সামুদ্রিক জীবনের বিবর্তন, কঙ্কাল ও বিরল প্রজাতির সংগ্রহ — শেখার এক অসাধারণ ভ্রমণ।</p>
+          <a href="#tickets" class="more">বিস্তারিত <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+      <!-- 3 -->
+      <article class="attr-card reveal">
+        <div class="media"><div class="g" style="background:linear-gradient(160deg,#0A3744,#15687F)"></div>
+          <span class="ph-note">ছবি: সি-ফুড প্লেট · 380×210px</span>
+          <div class="icon-chip"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 3v18M4 3a4 4 0 014 4v6H4M18 3c-2 0-3 3-3 7s1 5 3 5 3-1 3-5-1-7-3-7zM18 15v6"/></svg></div>
+        </div>
+        <div class="body">
+          <h3>সি-ফুড রেস্টুরেন্ট</h3>
+          <p>সমুদ্রের ধার থেকে আসা টাটকা মাছ আর সি-ফুড, পরিবেশন করা হয় সমুদ্রমুখী খোলা পরিবেশে।</p>
+          <a href="#tickets" class="more">বিস্তারিত <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+      <!-- 4 -->
+      <article class="attr-card reveal">
+        <div class="media"><div class="g" style="background:linear-gradient(160deg,#3F9BB2,#8FCDD9)"></div>
+          <span class="ph-note">ছবি: কিডস জোন · 380×210px</span>
+          <div class="icon-chip"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="5" r="2.5"/><path d="M12 8v6m-4 6l4-6 4 6M6 11h12"/></svg></div>
+        </div>
+        <div class="body">
+          <h3>কিডস জোন</h3>
+          <p>শিশুদের জন্য নিরাপদ খেলার জগৎ — সমুদ্র-থিমের রাইড, গেমস আর শেখার মজার আয়োজন।</p>
+          <a href="#tickets" class="more">বিস্তারিত <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+      <!-- 5 -->
+      <article class="attr-card reveal">
+        <div class="media"><div class="g" style="background:linear-gradient(160deg,#0E4B5E,#3F9BB2)"></div>
+          <span class="ph-note">ছবি: পার্টি হল · 380×210px</span>
+          <div class="icon-chip"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 20l4-12 4 12M3 8h10M16 4l1.5 4.5L22 10l-4.5 1.5L16 16l-1.5-4.5L10 10l4.5-1.5z"/></svg></div>
+        </div>
+        <div class="body">
+          <h3>পার্টি ও ইভেন্ট সেন্টার</h3>
+          <p>জন্মদিন, কর্পোরেট গেট-টুগেদার কিংবা বিশেষ আয়োজন — সমুদ্রের পটভূমিতে স্মরণীয় উদযাপন।</p>
+          <a href="#tickets" class="more">বিস্তারিত <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+      <!-- 6 / tourist -->
+      <article class="attr-card reveal">
+        <div class="media"><div class="g" style="background:linear-gradient(160deg,#15687F,#0A3744)"></div>
+          <span class="ph-note">ছবি: সমুদ্রতীর · 380×210px</span>
+          <div class="icon-chip"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 18h18M5 18c0-4 3-7 7-7s7 3 7 7M12 11V5m0 0l4 2m-4-2L8 7"/></svg></div>
+        </div>
+        <div class="body">
+          <h3>ট্যুরিস্ট গাইড ও প্যাকেজ</h3>
+          <p>কক্সবাজার ভ্রমণে এলে রেডিয়ান ফিশ ওয়ার্ল্ড থাকুক আপনার তালিকার প্রথমে — গ্রুপ প্যাকেজ সুবিধাসহ।</p>
+          <a href="#tickets" class="more">বিস্তারিত <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= GALLERY ========================= -->
+<section class="section gallery" id="gallery">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">সামুদ্রিক জীবন</span>
+      <h2>রঙ, আলো আর জীবনের এক উৎসব</h2>
+      <p>প্রতিটি কোণে অপেক্ষা করছে নতুন বিস্ময় — কিছু মুহূর্ত শুধু চোখে দেখার জন্য।</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="g-item tall reveal"><span class="ph-note">ছবি · 380×418px</span><div class="cap">কোরাল রিফ ট্যাংক</div></div>
+      <div class="g-item reveal"><span class="ph-note">ছবি · 380×200px</span><div class="cap">ক্লাউনফিশ</div></div>
+      <div class="g-item wide reveal"><span class="ph-note">ছবি · 778×200px</span><div class="cap">শার্ক টানেল</div></div>
+      <div class="g-item reveal"><span class="ph-note">ছবি · 380×200px</span><div class="cap">জেলিফিশ ডোম</div></div>
+      <div class="g-item reveal"><span class="ph-note">ছবি · 380×200px</span><div class="cap">সি-টার্টল</div></div>
+      <div class="g-item wide reveal"><span class="ph-note">ছবি · 778×200px</span><div class="cap">রে-ফিশ ল্যাগুন</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= EXPERIENCE ========================= -->
+<section class="section experience">
+  <div class="container">
+    <div class="grid">
+      <div class="reveal">
+        <span class="eyebrow">কেন রেডিয়ান ফিশ ওয়ার্ল্ড</span>
+        <h2>একটি দিন, অসংখ্য মুহূর্ত</h2>
+        <p>আমরা কেবল একটি অ্যাকুরিয়াম নই — পরিবারের জন্য একটি পূর্ণ গন্তব্য। সকাল থেকে সন্ধ্যা, প্রতিটি মুহূর্তে নতুন কিছু।</p>
+        <div class="exp-list">
+          <div class="exp-item"><span class="tick"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M5 12l5 5 9-11"/></svg></span> শীতাতপ নিয়ন্ত্রিত আরামদায়ক পরিবেশ</div>
+          <div class="exp-item"><span class="tick"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M5 12l5 5 9-11"/></svg></span> প্রতিদিন নির্ধারিত সময়ে মাছকে খাবার দেওয়ার শো</div>
+          <div class="exp-item"><span class="tick"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M5 12l5 5 9-11"/></svg></span> পর্যাপ্ত পার্কিং ও হুইলচেয়ার সুবিধা</div>
+          <div class="exp-item"><span class="tick"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M5 12l5 5 9-11"/></svg></span> অভিজ্ঞ গাইড ও শিক্ষামূলক সেশন</div>
+        </div>
+      </div>
+      <div class="exp-visual reveal"><span class="ph-note">ছবি/ভিডিও: ফিডিং শো · 560×560px</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= TICKETS ========================= -->
+<section class="section tickets" id="tickets">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">টিকিট ও প্যাকেজ</span>
+      <h2>আপনার জন্য সঠিক প্যাকেজটি বেছে নিন</h2>
+      <p>সব মূল্য বাংলাদেশি টাকায় (৳)। অনলাইনে বুক করলে লাইনে দাঁড়ানোর ঝামেলা নেই।</p>
+    </div>
+    <div class="ticket-grid">
+      <div class="ticket reveal">
+        <h3>সাধারণ প্রবেশ</h3>
+        <p class="desc">অ্যাকুরিয়াম ও ফিশ মিউজিয়ামে প্রবেশ</p>
+        <div class="price">৳৩৫০ <small>/ জন</small></div>
+        <div class="unit">৩ বছরের নিচে শিশু ফ্রি</div>
+        <ul>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12l5 5 9-11"/></svg> অ্যাকুরিয়াম টানেল ট্যুর</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12l5 5 9-11"/></svg> ফিশ মিউজিয়াম প্রবেশ</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12l5 5 9-11"/></svg> ফিডিং শো দেখার সুযোগ</li>
+        </ul>
+        <a href="#" class="btn btn-secondary">বুক করুন</a>
+      </div>
+      <div class="ticket featured reveal">
+        <h3>ফ্যামিলি প্যাকেজ</h3>
+        <p class="desc">২ জন বড় + ২ জন শিশু, সব আকর্ষণসহ</p>
+        <div class="price">৳১,২০০ <small>/ পরিবার</small></div>
+        <div class="unit">সাধারণ মূল্যে প্রায় ২৫% সাশ্রয়</div>
+        <ul>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12l5 5 9-11"/></svg> সব আকর্ষণে প্রবেশ</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12l5 5 9-11"/></svg> কিডস জোনে ১ ঘণ্টা ফ্রি</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12l5 5 9-11"/></svg> রেস্টুরেন্টে ১০% ছাড়</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12l5 5 9-11"/></svg> ফ্রি পার্কিং</li>
+        </ul>
+        <a href="#" class="btn btn-primary">বুক করুন</a>
+      </div>
+      <div class="ticket reveal">
+        <h3>ফুল এক্সপেরিয়েন্স</h3>
+        <p class="desc">গাইডসহ পূর্ণ ট্যুর + খাবার</p>
+        <div class="price">৳৯৫০ <small>/ জন</small></div>
+        <div class="unit">গ্রুপ ও ট্যুরিস্ট প্যাকেজে বিশেষ মূল্য</div>
+        <ul>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12l5 5 9-11"/></svg> ব্যক্তিগত গাইডেড ট্যুর</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12l5 5 9-11"/></svg> সি-ফুড লাঞ্চ অন্তর্ভুক্ত</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12l5 5 9-11"/></svg> সব আকর্ষণে অগ্রাধিকার প্রবেশ</li>
+        </ul>
+        <a href="#" class="btn btn-secondary">বুক করুন</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= REVIEWS ========================= -->
+<section class="section reviews">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">দর্শনার্থীদের কথা</span>
+      <h2>যাঁরা ঘুরে গেছেন, তাঁরা বলছেন</h2>
+    </div>
+    <div class="review-grid">
+      <div class="review reveal">
+        <div class="stars">★★★★★</div>
+        <p>বাচ্চাদের নিয়ে গিয়েছিলাম, ওরা টানেলের ভেতর মাছ দেখে মুগ্ধ! পরিষ্কার, ঠান্ডা আর গোছানো পরিবেশ। কক্সবাজার গেলে অবশ্যই যাওয়ার মতো জায়গা।</p>
+        <div class="who"><div class="av">তা</div><div><div class="nm">তানজিনা আক্তার</div><div class="loc">ঢাকা</div></div></div>
+      </div>
+      <div class="review reveal">
+        <div class="stars">★★★★★</div>
+        <p>সি-ফুড রেস্টুরেন্টের খাবার দারুণ টাটকা ছিল। অ্যাকুরিয়াম দেখার পর সমুদ্রমুখী বসে খাওয়ার অভিজ্ঞতাটা অসাধারণ।</p>
+        <div class="who"><div class="av">রা</div><div><div class="nm">রাকিবুল হাসান</div><div class="loc">চট্টগ্রাম</div></div></div>
+      </div>
+      <div class="review reveal">
+        <div class="stars">★★★★★</div>
+        <p>ছেলের জন্মদিন এখানে পার্টি সেন্টারে করেছি। আয়োজন, সাজসজ্জা আর সার্ভিস সব মিলিয়ে চমৎকার একটা দিন কেটেছে।</p>
+        <div class="who"><div class="av">সু</div><div><div class="nm">সুমাইয়া রহমান</div><div class="loc">কক্সবাজার</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= VISIT ========================= -->
+<section class="section visit" id="visit">
+  <div class="container">
+    <div class="grid">
+      <div class="reveal">
+        <span class="eyebrow">আসার তথ্য</span>
+        <h2>আমরা অপেক্ষায় আছি আপনার জন্য</h2>
+        <div class="visit-info">
+          <div class="vi-row">
+            <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4.5 8-12a8 8 0 10-16 0c0 7.5 8 12 8 12z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <div><h4>ঠিকানা</h4><p>কলাতলী রোড, সমুদ্র সৈকতের পাশে, কক্সবাজার, বাংলাদেশ</p></div>
+          </div>
+          <div class="vi-row">
+            <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+            <div><h4>খোলার সময়</h4><p>প্রতিদিন সকাল ১০টা — রাত ৯টা (সাপ্তাহিক ছুটি নেই)</p></div>
+          </div>
+          <div class="vi-row">
+            <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3-8.6A2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 2 .7 2.9a2 2 0 01-.4 2.1L8.1 9.9a16 16 0 006 6l1.2-1.3a2 2 0 012.1-.4c1 .3 1.9.6 2.9.7a2 2 0 011.7 2z"/></svg></div>
+            <div><h4>যোগাযোগ</h4><p>+৮৮০ ১৮XX-XXXXXX · hello@radianfishworld.com</p></div>
+          </div>
+        </div>
+        <div style="margin-top:32px"><a href="#tickets" class="btn btn-primary">এখনই টিকিট বুক করুন</a></div>
+      </div>
+      <div class="map-card reveal">
+        <span class="ph-note">ম্যাপ এমবেড: Google Maps · 560×560px</span>
+        <div class="pin"><div class="dot"></div><span style="color:#fff;font-size:14px;font-weight:500">রেডিয়ান ফিশ ওয়ার্ল্ড</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= CTA BAND ========================= -->
+<section class="cta-band">
+  <div class="container reveal">
+    <h2>সমুদ্রের গল্প শুরু হোক আজই</h2>
+    <p>পরিবার আর প্রিয়জনদের নিয়ে একটি দিন কাটিয়ে যান রেডিয়ান ফিশ ওয়ার্ল্ডে।</p>
+    <a href="#tickets" class="btn btn-primary">টিকিট বুক করুন</a>
+  </div>
+</section>
+
+<!-- ========================= FOOTER ========================= -->
+<footer class="footer">
+  <div class="container">
+    <div class="top">
+      <div class="brand">
+        <div class="logo">
+          <svg class="mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="20" fill="#15687F"/>
+            <path d="M9 20c4-6 11-9 18-7-3 3-3 8 0 11-7 2-14-1-18-4z" fill="#8FCDD9"/>
+            <path d="M27 13c3-2 5-2 5-2s-1 4-3 7l-2-5z" fill="#EE9377"/>
+            <circle cx="14" cy="18" r="1.6" fill="#0A3744"/>
+          </svg>
+          <span>রেডিয়ান ফিশ ওয়ার্ল্ড</span>
+        </div>
+        <p>কক্সবাজারের বুকে সমুদ্রের জীবন্ত জগৎ। পরিবার নিয়ে শেখা, খাওয়া আর আনন্দের এক পূর্ণ গন্তব্য।</p>
+        <div class="socials">
+          <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v2H7v3h3v6h3v-6h3l1-3h-4v-2c0-.6.4-1 1-1z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22 8s-.2-1.4-.8-2c-.8-.8-1.6-.8-2-.9C16.4 5 12 5 12 5s-4.4 0-7.2.1c-.4 0-1.2.1-2 .9C2.2 6.6 2 8 2 8s-.2 1.6-.2 3.3v1.4C1.8 14.4 2 16 2 16s.2 1.4.8 2c.8.8 1.8.8 2.3.9 1.7.1 6.9.1 6.9.1s4.4 0 7.2-.1c.4 0 1.2-.1 2-.9.6-.6.8-2 .8-2s.2-1.6.2-3.3v-1.4C22.2 9.6 22 8 22 8zM10 15V9l5 3-5 3z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h5>আকর্ষণ</h5>
+        <ul>
+          <li><a href="#attractions">অ্যাকুরিয়াম ট্যুর</a></li>
+          <li><a href="#attractions">ফিশ মিউজিয়াম</a></li>
+          <li><a href="#attractions">সি-ফুড রেস্টুরেন্ট</a></li>
+          <li><a href="#attractions">কিডস জোন</a></li>
+          <li><a href="#attractions">পার্টি সেন্টার</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>দ্রুত লিংক</h5>
+        <ul>
+          <li><a href="#about">আমাদের গল্প</a></li>
+          <li><a href="#tickets">টিকিট ও মূল্য</a></li>
+          <li><a href="#gallery">গ্যালারি</a></li>
+          <li><a href="#visit">যোগাযোগ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>যোগাযোগ</h5>
+        <ul>
+          <li><a href="#">কলাতলী রোড, কক্সবাজার</a></li>
+          <li><a href="#">প্রতিদিন ১০টা — রাত ৯টা</a></li>
+          <li><a href="#">+৮৮০ ১৮XX-XXXXXX</a></li>
+          <li><a href="#">hello@radianfishworld.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>© ২০২৬ রেডিয়ান ফিশ ওয়ার্ল্ড। সর্বস্বত্ব সংরক্ষিত।</span>
+      <span>কক্সবাজার, বাংলাদেশ 🌊</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Nav scroll state
+const nav=document.getElementById('nav');
+window.addEventListener('scroll',()=>{nav.classList.toggle('scrolled',window.scrollY>40)});
+// Mobile menu
+const burger=document.getElementById('burger'),navLinks=document.getElementById('navLinks');
+burger.addEventListener('click',()=>navLinks.classList.toggle('open'));
+navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>navLinks.classList.remove('open')));
+// Scroll reveal
+const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+document.querySelectorAll('.reveal').forEach((el,i)=>{el.style.transitionDelay=(i%4*60)+'ms';io.observe(el)});
+</script>
+</body>
+</html>
